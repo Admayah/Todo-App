@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #999999;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.noteApp-container {
+  width: 70%;
+  margin: 20px auto;
+  box-shadow: inset 20px 20px 10px #999999;
+}
+
+.first-section {
+  /* background-color: #edebee; */
+  padding: 30px;
+  margin: 5px auto;
+  background-color: #333333;
+  box-shadow: inset 15px 15px 3px -15px #333333;
+}
+
+h2 {
+  color: #fff;
+}
+#text-field {
+  outline: none;
+  width: 90%;
+}
+.save-btn {
+  width: 100px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  background-color: #e08b0f;
+  color: #fff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #111111;
+}
+
+.new-note {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid #000; */
+  box-shadow: inset 8px 8px 50px #f3f3;
+}
+
+.list-item-group {
+  background-color: #f3f3f3;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-shadow: 800px 800px 500px #f3f3f3;
+}
+li {
+  flex: 5;
+}
+
+.delete {
+  height: 30px;
+  background-color: red;
+  color: #fff;
+  margin: 0 5px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 5px;
+  flex: 1;
+}
+.editNote {
+  height: 30px;
+  background-color: #3dadee;
+  color: #fff;
+  margin: 0 5px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 5px;
+  flex: 1;
+}

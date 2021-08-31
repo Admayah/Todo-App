@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoteApp Project</title>
+    <link rel="stylesheet" href="noteApp.css" />
+  </head>
+  <body>
+    <!-- <div id="note-book"> -->
+    <div class="noteApp-container">
+      <div class="first-section">
+        <h2>Note App</h2>
+        <textarea
+          name="text"
+          id="text-field"
+          cols="100"
+          rows="5"
+          placeholder="Add note..."
+        ></textarea
+        ><br />
+        <button class="save-btn">Save Note</button>
+      </div>
+      <div class="second-section">
+        <div class="header">
+          <h4># NOTES</h4>
+          <h4>ACTIONS</h4>
+        </div>
+        <hr />
+      </div>
+      <div class="third-container">
+        <ol class="new-note"></ol>
+      </div>
+    </div>
+
+    <script src="notedApp.js"></script>
+  </body>
+</html>
